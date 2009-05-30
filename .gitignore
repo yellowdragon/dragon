@@ -1,0 +1,14 @@
+# git ignore list
+
+*.[oa]
+*~
+*.class
+*.swp
+
+tmp/*
+nbproject/*
+test-result/*
+logs/*
+
+conf/application.conf
+
