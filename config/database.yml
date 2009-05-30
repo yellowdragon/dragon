@@ -34,7 +34,7 @@ test:
   database: dragon_test
   pool: 5
   username: root
-  password:
+  password: root
   socket: /tmp/mysql.sock
 
 production:
@@ -44,5 +44,5 @@ production:
   database: dragon_production
   pool: 5
   username: root
-  password: 
+  password: root
   socket: /tmp/mysql.sock
