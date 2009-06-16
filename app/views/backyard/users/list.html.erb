@@ -1,0 +1,29 @@
+<h1>用户列表</h1>
+
+<div id="backyard-table">
+  <table>
+    <tr>
+      <th>用户名</th>
+      <th>电子邮箱</th>
+      <th>密码</th>
+      <th>描述</th>
+      <th>动作</th>
+    </tr>
+
+    <% @users.each do |user| %>
+      <tr>
+        <td><%=h user.name %></td>
+        <td><%=h user.email %></td>
+        <td><%=h user.hashed_password %></td>
+        <td><%=h user.profile %></td>
+        <td><%= link_to '查看', :action=>"show",:id=>user %> |
+          <%= link_to '编辑', :action=>"edit",:id=>user  %> |
+        <%= link_to '删除', user, :confirm => 'Are you sure?', :method => :delete %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+
+<br />
+
+<%= link_to 'New user', :action=>"new" %>

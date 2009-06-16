@@ -19,7 +19,7 @@ development:
   encoding: utf8
   reconnect: false
   database: dragon_development
-  pool: 6
+  pool: 5
   username: root
   password: root
   socket: /tmp/mysql.sock

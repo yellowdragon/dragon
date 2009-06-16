@@ -1,0 +1,111 @@
+body { background-color: #fff; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#backyard-banner {
+    width: 100%;
+    background-color: #AAEEFF;
+    height: 100px;
+     padding: 6px 5px;
+}
+
+#backyard-table {
+    border: 3px;
+    width: 75%;
+    border: 2px solid #ddd;
+    border-color: blue;
+    border-top: none;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+#backyard-table table thead tr {
+    background: #0A65AF;
+    border-color:red;
+}
+
+#backyard-table table th {
+    color: red;
+    background: green;
+    font-weight: bold;
+}
+
+
+#backyard-table table th a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#backyard-table table th {
+    text-align: left;
+    padding: 6px 5px;
+}
+
+#backyard-table  table td {
+    text-align: left;
+    padding: 4px 5px;
+}
+
+#backyard-table table td {
+    border-bottom: 1px solid #eee;
+}
+
+#backyard-table  table tr.even {
+    background: #f9f9f9;
+}
+
+#backyard-table  table tr:last-child td {
+    border-bottom: 1px solid #ddd;
+}
+
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+

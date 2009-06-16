@@ -2,13 +2,9 @@
 
 *.[oa]
 *~
-*.class
-*.swp
 
 tmp/*
 nbproject/*
-test-result/*
-logs/*
+log/*
 
-conf/application.conf
 
