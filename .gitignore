@@ -2,7 +2,7 @@
 
 *.[oa]
 *~
-
+config/database.yml
 tmp/*
 nbproject/*
 log/*
