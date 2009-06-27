@@ -3,8 +3,8 @@
 *.[oa]
 *~
 config/database.yml
-tmp/*
+tmp/
 nbproject/*
-log/*
+log/*.*
 
 

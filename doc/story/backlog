@@ -1,9 +1,82 @@
-Member :
-* join to become a member
-* validate the email from activation link
+Vacabulary
+==================================================
+* user 用户
+* paid_user 付费用户
+* category 类目
+* project 任务项目
+* tender 标书
+* agreement 协议
+* contract 合同
+* message 消息
+* dashboard 用户工作台
+* backyard 系统管理后台
+* portal 门户
+===================================================
+
+Domain Model:Entity Relationship
+===================================================
+
+
+
+===================================================
+
+User Stories
+===================================================
+* join and create account
+* validate the email for validation & activation
 * login
 * logout
 * change password
 * forget password , reset password
+* set security question & answer
 * edit my profile
+* show my works
 * upgrade to vip customer
+* view dashboard homepage
+===================================================
+as a project poster :
+* search candidate with keywords
+* view candidates with categories
+* create a project
+* edit a project
+* submit (then publish after approved) a project
+* modify a project and submit again
+* close a project
+* cancel a project
+* view my projects list
+* delete a project
+* search in my projects
+* view tenders list of a project
+* view tender detail info
+* view tender's user profile
+* deny a tender
+* accept a tender
+* send message to response on a tender
+* create an agreement and send to accepted candiate
+* view project progress
+* create a contract for a project and send
+* modify a contract info
+* view contract detail info
+===================================================
+as a project candidate :
+* search project interested in
+* view project detail info
+* bookmark a project
+* compete a project as candiate
+* submit a tender
+* modify a tender and submit again
+* confirm an agreement
+* modiry an agreement
+* view projects I involved
+===================================================
+as administrator :
+* manage users
+** view users list
+** search user
+** view user detail
+** manage user detail
+** manage user status
+* manage projects
+** view 
+
+

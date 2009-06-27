@@ -1,0 +1,2 @@
+class PaidUser < User
+end
